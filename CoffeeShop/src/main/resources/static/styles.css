@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+
+
+
+
+  body {
+    background-color: white;
+  }
+  
+  .regbar {
+  text-align:right;
+  padding: .2em;
+  margin:0 4em 0 0;
+  }
+  
+  .regform {
+  text-align: center;
+  padding: 1em;
+  margin: 0 1em;
+  border: solid;
+  }
+  
+  h1 {
+	text-align:center;
+	border:solid;
+	margin: 1em;
+	padding:1.5em 0;
+	font-size:4em;
+}
+
+  .c2 {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+    width: 48%;
+}
+
+
+@media only screen and (min-width: 580px) {
+  body {
+    background-color: tomato;
+  }
+  
+  .c1 {
+  background-color:brown;
+  margin: 0 1em;
+  padding:1.5em 0;
+  }
+  
+  .c2 {
+  	background-color:brown;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+    width: 48%;
+    font-size: 2em;
+}
+  
+    .regbar {
+  text-align:right;
+  padding: .2em;
+  margin:0 1em 0 0;
+  }
+  
+  h1 {
+	text-align:center;
+	border:solid;
+	margin: 1em;
+	padding:1.5em 0;
+	font-size:4em;
+}
+}
